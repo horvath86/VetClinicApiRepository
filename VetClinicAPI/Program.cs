@@ -12,7 +12,17 @@ namespace VetClinicAPI
             //services
             builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection")));
 
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("MyCors", builder =>
+                {
+                    builder.WithOrigins("http://localhost:4200").AllowAnyMethod().AllowAnyHeader();
+                });
+            });
+
             var app = builder.Build();
+
+            app.UseCors("MyCors");
 
             app.MapGet("/", () => "Hello World!");
 
