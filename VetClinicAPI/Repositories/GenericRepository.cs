@@ -5,11 +5,11 @@ using VetClinicAPI.Models;
 
 namespace VetClinicAPI.Repositories
 {
-    public class AnimalRepository<T> : IRepository<T> where T : Animal
+    public class GenericRepository<T> : IRepository<T> where T : class
     {
         private readonly AppDbContext _context;
 
-        public AnimalRepository(AppDbContext context)
+        public GenericRepository(AppDbContext context)
         {
             _context = context;
         }

@@ -159,3 +159,8 @@ D:\VSTutorials - Praksa\VetClinicAPI\VetClinicAPI\bin\Debug\net9.0\runtimes\win\
 D:\VSTutorials - Praksa\VetClinicAPI\VetClinicAPI\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 D:\VSTutorials - Praksa\VetClinicAPI\VetClinicAPI\obj\Debug\net9.0\VetClinicAPI.csproj.AssemblyReference.cache
 D:\VSTutorials - Praksa\VetClinicAPI\VetClinicAPI\obj\Debug\net9.0\VetClini.C344FA4F.Up2Date
+D:\VSTutorials - Praksa\VetClinicAPI\VetClinicAPI\bin\Debug\net9.0\Microsoft.OpenApi.dll
+D:\VSTutorials - Praksa\VetClinicAPI\VetClinicAPI\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\VSTutorials - Praksa\VetClinicAPI\VetClinicAPI\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\VSTutorials - Praksa\VetClinicAPI\VetClinicAPI\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\VSTutorials - Praksa\VetClinicAPI\VetClinicAPI\obj\Debug\net9.0\VetClinicAPI.MvcApplicationPartsAssemblyInfo.cs
