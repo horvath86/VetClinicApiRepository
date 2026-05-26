@@ -1,6 +1,6 @@
 ﻿namespace VetClinicAPI.Enums
 {
-    public enum Species
+    public enum SpeciesEnum
     {
         Canine,
         Feline,

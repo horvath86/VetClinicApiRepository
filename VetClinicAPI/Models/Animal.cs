@@ -15,7 +15,7 @@ namespace VetClinicAPI.Models
 
         [Required(ErrorMessage = "Species is required")]
         [Column(TypeName = "nvarchar(25)")]
-        public Species Species { get; set; }
+        public SpeciesEnum Species { get; set; }
 
         [Required(ErrorMessage = "Date of birth is required")]
         [DataType(DataType.Date)]
@@ -24,7 +24,7 @@ namespace VetClinicAPI.Models
 
         [Required(ErrorMessage = "Gender is required")]
         [Column(TypeName = "nvarchar(25)")]
-        public Gender Gender { get; set; }
+        public GenderEnum Gender { get; set; }
 
         [Required(ErrorMessage = "Owner name is required")]
         [Column(TypeName = "nvarchar(100)")]

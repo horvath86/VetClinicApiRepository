@@ -1,6 +1,6 @@
 ﻿namespace VetClinicAPI.Enums
 {
-    public enum MedName
+    public enum MedNameEnum
     {
         medication1, 
         medication2, 

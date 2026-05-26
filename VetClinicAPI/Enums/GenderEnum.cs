@@ -2,7 +2,7 @@
 
 namespace VetClinicAPI.Enums
 {
-    public enum Gender
+    public enum GenderEnum
     {
         male,
         female
