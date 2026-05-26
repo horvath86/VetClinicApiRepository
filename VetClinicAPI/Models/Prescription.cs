@@ -7,7 +7,7 @@ namespace VetClinicAPI.Models
     public class Prescription
     {
         [Key]
-        public int If { get; set; }
+        public int Id { get; set; }
 
         [Required(ErrorMessage = "Medical record id is required")]
         [Column(TypeName = "int")]
