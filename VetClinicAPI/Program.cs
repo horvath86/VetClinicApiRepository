@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using VetClinicAPI.Data;
 using VetClinicAPI.Models;
 using VetClinicAPI.Repositories;
+using VetClinicAPI.Services;
 
 namespace VetClinicAPI
 {
@@ -23,6 +24,7 @@ namespace VetClinicAPI
             });
 
             builder.Services.AddScoped(typeof(IRepository<>), typeof(GenericRepository<>));
+            builder.Services.AddScoped(typeof(VetService));
             
             builder.Services.AddControllers();
 

@@ -164,3 +164,4 @@ D:\VSTutorials - Praksa\VetClinicAPI\VetClinicAPI\bin\Debug\net9.0\Swashbuckle.A
 D:\VSTutorials - Praksa\VetClinicAPI\VetClinicAPI\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\VSTutorials - Praksa\VetClinicAPI\VetClinicAPI\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\VSTutorials - Praksa\VetClinicAPI\VetClinicAPI\obj\Debug\net9.0\VetClinicAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\VSTutorials - Praksa\VetClinicAPI\VetClinicAPI\bin\Debug\net9.0\BCrypt-Net-Next.dll
