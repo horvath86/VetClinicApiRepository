@@ -6,7 +6,7 @@ namespace VetClinicAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class AnimalController :ControllerBase
+    public class AnimalController : ApiBaseController
     {
         private readonly IRepository<Animal> _animalRepository;
 
@@ -43,10 +43,10 @@ namespace VetClinicAPI.Controllers
                 await _animalRepository.AddAsync(animal);
                 return CreatedAtAction(nameof(GetAnimalById), new { id = animal.Id }, animal);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
 
-                throw new Exception("Could not create animal", ex);
+                return BadRequest("Could not create animal");
             }
         }
 
@@ -55,7 +55,7 @@ namespace VetClinicAPI.Controllers
         {
             if (id != animal.Id)
             {
-                return BadRequest("Mujo nije tu");
+                return BadRequest();
             }
 
             await _animalRepository.UpdateAsync(animal);

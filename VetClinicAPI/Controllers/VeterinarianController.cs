@@ -8,7 +8,7 @@ namespace VetClinicAPI.Controllers
 
     [Route("api/[controller]")]
     [ApiController]
-    public class VeterinarianController : ControllerBase
+    public class VeterinarianController : ApiBaseController
     {
         private readonly IRepository<Veterinarian> _veterinarianRepository;
         private readonly VetService _vetService;
@@ -48,16 +48,11 @@ namespace VetClinicAPI.Controllers
                 return BadRequest("Paswords do not match");
             }
 
-            try
+            return await ExecuteSafelyAsync(async () =>
             {
                 Veterinarian vet = await _vetService.regVeterinarian(regVeterinarian);
                 return CreatedAtAction(nameof(GetVeterinarianById), new { id = vet.Id }, vet);
-            }
-            catch (Exception ex)
-            {
-
-                throw new Exception("Could not create veterinarian", ex);
-            }
+            });
         }
 
         [HttpPut("{id}")]
@@ -75,16 +70,12 @@ namespace VetClinicAPI.Controllers
                 return NotFound();
             }
 
-            try
+            return await ExecuteSafelyAsync(async () =>
             {
                 Veterinarian vet = await _vetService.UpdateVeterinarian(regVeterinarian, veterinarian);
                 return CreatedAtAction(nameof(GetVeterinarianById), new { id = vet.Id }, vet);
-            }
-            catch (Exception ex)
-            {
-
-                throw new Exception("Could not create veterinarian", ex);
-            }
+            });
+           
         }
 
         [HttpDelete("{id}")]
