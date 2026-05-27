@@ -72,6 +72,53 @@
     ]
   },
   {
+    "ContainingType": "VetClinicAPI.Controllers.AnimalController",
+    "Method": "UpdateAnimal",
+    "RelativePath": "api/Animal/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "animal",
+        "Type": "VetClinicAPI.Models.Animal",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VetClinicAPI.Models.Animal",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VetClinicAPI.Controllers.AnimalController",
+    "Method": "DeleteAnimalById",
+    "RelativePath": "api/Animal/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "VetClinicAPI.Controllers.VeterinarianController",
     "Method": "GetAllVeterinarians",
     "RelativePath": "api/Veterinarian",
@@ -142,5 +189,52 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "VetClinicAPI.Controllers.VeterinarianController",
+    "Method": "UpdateVeterinarian",
+    "RelativePath": "api/Veterinarian/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "regVeterinarian",
+        "Type": "VetClinicAPI.Models.RegVeterinarian",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VetClinicAPI.Models.Veterinarian",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VetClinicAPI.Controllers.VeterinarianController",
+    "Method": "DeleteAnimalById",
+    "RelativePath": "api/Veterinarian/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

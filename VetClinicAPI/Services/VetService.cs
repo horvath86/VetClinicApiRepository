@@ -29,5 +29,20 @@ namespace VetClinicAPI.Services
             return (veterinarian);
 
         }
+
+        public async Task<Veterinarian> UpdateVeterinarian(RegVeterinarian regVeterinarian, Veterinarian veterinarian)
+        {
+            string secureHash = BCrypt.Net.BCrypt.HashPassword(regVeterinarian.Password);
+
+            veterinarian.Name = regVeterinarian.Name;
+            veterinarian.Email = regVeterinarian.Email;
+            veterinarian.PassHash = secureHash;
+            
+
+            await _genericRepository.UpdateAsync(veterinarian);
+
+            return (veterinarian);
+
+        }
     }
 }

@@ -49,5 +49,25 @@ namespace VetClinicAPI.Controllers
                 throw new Exception("Could not create animal", ex);
             }
         }
+
+        [HttpPut("{id}")]
+        public async Task<ActionResult<Animal>> UpdateAnimal(int id, Animal animal)
+        {
+            if (id != animal.Id)
+            {
+                return BadRequest("Mujo nije tu");
+            }
+
+            await _animalRepository.UpdateAsync(animal);
+            return CreatedAtAction(nameof(GetAnimalById), new { id = animal.Id }, animal);
+
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<ActionResult> DeleteAnimalById(int id)
+        {
+            await _animalRepository.DeleteAsync(id);
+            return NoContent();
+        }
     }
 }

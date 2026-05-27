@@ -29,7 +29,7 @@ namespace VetClinicAPI.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Veterinarian>> GetVeterinarianById(int id)
         {
-            var veterinarian = _veterinarianRepository.GetByIdAsync(id);
+            var veterinarian = await _veterinarianRepository.GetByIdAsync(id);
 
             if (veterinarian == null)
             {
@@ -58,6 +58,40 @@ namespace VetClinicAPI.Controllers
 
                 throw new Exception("Could not create veterinarian", ex);
             }
+        }
+
+        [HttpPut("{id}")]
+        public async Task<ActionResult<Veterinarian>> UpdateVeterinarian(int id, RegVeterinarian regVeterinarian)
+        {
+            if (regVeterinarian.Password != regVeterinarian.PassConfirm)
+            {
+                return BadRequest("Paswords do not match");
+            }
+
+            var veterinarian = await _veterinarianRepository.GetByIdAsync(id);
+
+            if (veterinarian == null)
+            {
+                return NotFound();
+            }
+
+            try
+            {
+                Veterinarian vet = await _vetService.UpdateVeterinarian(regVeterinarian, veterinarian);
+                return CreatedAtAction(nameof(GetVeterinarianById), new { id = vet.Id }, vet);
+            }
+            catch (Exception ex)
+            {
+
+                throw new Exception("Could not create veterinarian", ex);
+            }
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<ActionResult> DeleteAnimalById(int id)
+        {
+            await _veterinarianRepository.DeleteAsync(id);
+            return NoContent();
         }
     }
 }
