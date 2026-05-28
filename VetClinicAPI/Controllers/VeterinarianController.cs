@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using VetClinicAPI.DTO;
 using VetClinicAPI.Models;
 using VetClinicAPI.Repositories;
 using VetClinicAPI.Services;
@@ -20,7 +21,7 @@ namespace VetClinicAPI.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Veterinarian>>> GetAllVeterinarians()
+        public async Task<ActionResult<IEnumerable<VeterinarianDTO>>> GetAllVeterinarians()
         {
             var allVeterinarians = await _veterinarianRepository.GetAllAsync();
 
@@ -28,7 +29,7 @@ namespace VetClinicAPI.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<Veterinarian>> GetVeterinarianById(int id)
+        public async Task<ActionResult<VeterinarianDTO>> GetVeterinarianById(int id)
         {
             var veterinarian = await _veterinarianRepository.GetByIdAsync(id);
 
