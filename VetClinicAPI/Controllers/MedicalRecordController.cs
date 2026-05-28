@@ -27,6 +27,12 @@ namespace VetClinicAPI.Controllers
         public async Task<ActionResult<MedicalRecordDTO>> GetMedicalRecordById(int id)
         {
             var medicalRecord = await _medicalRecord.GetByIdAsync(id);
+
+            if (medicalRecord == null) 
+            {
+                return NotFound();
+            }
+
             return Ok(medicalRecord);
         }
 
@@ -51,18 +57,22 @@ namespace VetClinicAPI.Controllers
            
         }
 
-        [HttpPut]
-        public async Task<ActionResult<MedicalRecordDTO>> UpdateMedicalRecord(MedicalRecordDTO medicalRecordDTO)
+        [HttpPut("{id}")]
+        public async Task<ActionResult<MedicalRecordDTO>> UpdateMedicalRecord(int id, MedicalRecordDTO medicalRecordDTO)
         {
-            var medicalRecord = new MedicalRecord
+            var medicalRecord = await _medicalRecord.GetByIdAsync(id);
+
+            if (medicalRecord == null) 
             {
-                AnimalId = medicalRecordDTO.AnimalId,
-                VetId = medicalRecordDTO.VetId,
-                VisitDate = medicalRecordDTO.VisitDate,
-                Symptoms = medicalRecordDTO.Symptoms,
-                Diagnosis = medicalRecordDTO.Diagnosis,
-                Notes = medicalRecordDTO.Notes
-            };
+                return NotFound();
+            }
+
+            medicalRecord.AnimalId = medicalRecordDTO.AnimalId;
+            medicalRecord.VetId = medicalRecordDTO.VetId;
+            medicalRecord.VisitDate = medicalRecordDTO.VisitDate;
+            medicalRecord.Symptoms = medicalRecordDTO.Symptoms;
+            medicalRecord.Diagnosis = medicalRecordDTO.Diagnosis;
+            medicalRecord.Notes = medicalRecordDTO.Notes;
 
             await _medicalRecord.UpdateAsync(medicalRecord);
             return CreatedAtAction(nameof(GetMedicalRecordById), new {id = medicalRecord.Id }, medicalRecordDTO);
@@ -71,6 +81,14 @@ namespace VetClinicAPI.Controllers
         [HttpDelete]
         public async Task<ActionResult> DeleteMedicalRecord(int id)
         {
+
+            var medicalRecord = await _medicalRecord.GetByIdAsync(id);
+
+            if (medicalRecord == null)
+            {
+                return NotFound();
+            }
+
             await _medicalRecord.DeleteAsync(id);
             return NoContent();
         }

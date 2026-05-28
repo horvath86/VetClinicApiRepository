@@ -23,6 +23,7 @@ namespace VetClinicAPI.Controllers
         public async Task<ActionResult<IEnumerable<Veterinarian>>> GetAllVeterinarians()
         {
             var allVeterinarians = await _veterinarianRepository.GetAllAsync();
+
             return Ok(allVeterinarians);
         }
 
@@ -81,6 +82,14 @@ namespace VetClinicAPI.Controllers
         [HttpDelete("{id}")]
         public async Task<ActionResult> DeleteAnimalById(int id)
         {
+
+            var veterinarian = await _veterinarianRepository.GetByIdAsync(id);
+
+            if (veterinarian == null)
+            {
+                return NotFound();
+            }
+
             await _veterinarianRepository.DeleteAsync(id);
             return NoContent();
         }

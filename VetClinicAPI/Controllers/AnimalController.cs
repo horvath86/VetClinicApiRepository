@@ -66,6 +66,14 @@ namespace VetClinicAPI.Controllers
         [HttpDelete("{id}")]
         public async Task<ActionResult> DeleteAnimalById(int id)
         {
+
+            var animalInDb = await _animalRepository.GetByIdAsync(id);
+
+            if (animalInDb == null)
+            {
+                return NotFound();
+            }
+
             await _animalRepository.DeleteAsync(id);
             return NoContent();
         }
