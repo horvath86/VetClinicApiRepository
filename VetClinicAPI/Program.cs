@@ -24,6 +24,7 @@ namespace VetClinicAPI
             });
 
             builder.Services.AddScoped(typeof(IRepository<>), typeof(GenericRepository<>));
+            builder.Services.AddScoped<IPrescriptionRepository, PrescriptionRepository>();
             builder.Services.AddScoped(typeof(VetService));
             
             builder.Services.AddControllers();

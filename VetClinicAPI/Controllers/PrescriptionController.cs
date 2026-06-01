@@ -10,10 +10,12 @@ namespace VetClinicAPI.Controllers
     public class PrescriptionController : ApiBaseController
     {
         private readonly IRepository<Prescription> _prescription;
+        private readonly IPrescriptionRepository _prescriptionRepository;
 
-        public PrescriptionController(IRepository<Prescription> prescription)
+        public PrescriptionController(IRepository<Prescription> prescription, IPrescriptionRepository prescriptionRepository)
         {
             _prescription = prescription;
+            _prescriptionRepository = prescriptionRepository;
         }
 
         [HttpGet]
@@ -34,6 +36,13 @@ namespace VetClinicAPI.Controllers
             }
 
             return Ok(prescription);
+        }
+
+        [HttpGet("ByMR/{medicalRecordId}")]
+        public async Task<IActionResult> GetByMedicalRecord(int medicalRecordId)
+        {
+            var results = await _prescriptionRepository.GetByMedicalRecordIdAsync(medicalRecordId);
+            return Ok(results);
         }
 
         [HttpPost]
@@ -87,6 +96,7 @@ namespace VetClinicAPI.Controllers
             await _prescription.DeleteAsync(id);
             return NoContent();
         }
+
 
         
         

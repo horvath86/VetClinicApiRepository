@@ -4,6 +4,6 @@
     {
         medication1, 
         medication2, 
-        medication3,
+        medication3
     }
 }

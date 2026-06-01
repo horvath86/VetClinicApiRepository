@@ -476,6 +476,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "VetClinicAPI.Controllers.PrescriptionController",
+    "Method": "GetByMedicalRecord",
+    "RelativePath": "api/Prescription/ByMR/{medicalRecordId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "medicalRecordId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "VetClinicAPI.Controllers.ProcedureController",
     "Method": "GetAllProcedures",
     "RelativePath": "api/Procedure",
