@@ -10,10 +10,12 @@ namespace VetClinicAPI.Controllers
     public class ProcedureController:ApiBaseController
     {
         private readonly IRepository<Procedure> _procedure;
+        private readonly IProcedureRepository _procedureRepository;
 
-        public ProcedureController(IRepository<Procedure> procedure)
+        public ProcedureController(IRepository<Procedure> procedure, IProcedureRepository procedureRepository)
         {
             _procedure = procedure;
+            _procedureRepository = procedureRepository;
         }
 
         [HttpGet]
@@ -34,6 +36,13 @@ namespace VetClinicAPI.Controllers
             }
 
             return Ok(procedure);
+        }
+
+        [HttpGet("ByMR/{medicalRecordId}")]
+        public async Task<IActionResult> GetByMedicalRecord(int medicalRecordId)
+        {
+            var results = await _procedureRepository.GetByMedicalRecordIdAsync(medicalRecordId);
+            return Ok(results);
         }
 
         [HttpPost]

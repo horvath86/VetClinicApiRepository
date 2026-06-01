@@ -3,68 +3,16 @@
   "WorkspaceRootPath": "D:\\VSTutorials - Praksa\\VetClinicAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6B58D50B-F634-407B-BF72-4DA6D1E42EB3}|VetClinicAPI\\VetClinicAPI.csproj|d:\\vstutorials - praksa\\vetclinicapi\\vetclinicapi\\services\\vetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B58D50B-F634-407B-BF72-4DA6D1E42EB3}|VetClinicAPI\\VetClinicAPI.csproj|solutionrelative:vetclinicapi\\services\\vetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B58D50B-F634-407B-BF72-4DA6D1E42EB3}|VetClinicAPI\\VetClinicAPI.csproj|d:\\vstutorials - praksa\\vetclinicapi\\vetclinicapi\\dto\\prescriptiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B58D50B-F634-407B-BF72-4DA6D1E42EB3}|VetClinicAPI\\VetClinicAPI.csproj|solutionrelative:vetclinicapi\\dto\\prescriptiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B58D50B-F634-407B-BF72-4DA6D1E42EB3}|VetClinicAPI\\VetClinicAPI.csproj|d:\\vstutorials - praksa\\vetclinicapi\\vetclinicapi\\controllers\\prescriptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B58D50B-F634-407B-BF72-4DA6D1E42EB3}|VetClinicAPI\\VetClinicAPI.csproj|solutionrelative:vetclinicapi\\controllers\\prescriptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6B58D50B-F634-407B-BF72-4DA6D1E42EB3}|VetClinicAPI\\VetClinicAPI.csproj|d:\\vstutorials - praksa\\vetclinicapi\\vetclinicapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B58D50B-F634-407B-BF72-4DA6D1E42EB3}|VetClinicAPI\\VetClinicAPI.csproj|solutionrelative:vetclinicapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B58D50B-F634-407B-BF72-4DA6D1E42EB3}|VetClinicAPI\\VetClinicAPI.csproj|d:\\vstutorials - praksa\\vetclinicapi\\vetclinicapi\\repositories\\prescriptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B58D50B-F634-407B-BF72-4DA6D1E42EB3}|VetClinicAPI\\VetClinicAPI.csproj|solutionrelative:vetclinicapi\\repositories\\prescriptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6B58D50B-F634-407B-BF72-4DA6D1E42EB3}|VetClinicAPI\\VetClinicAPI.csproj|d:\\vstutorials - praksa\\vetclinicapi\\vetclinicapi\\controllers\\procedurecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B58D50B-F634-407B-BF72-4DA6D1E42EB3}|VetClinicAPI\\VetClinicAPI.csproj|solutionrelative:vetclinicapi\\controllers\\procedurecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B58D50B-F634-407B-BF72-4DA6D1E42EB3}|VetClinicAPI\\VetClinicAPI.csproj|d:\\vstutorials - praksa\\vetclinicapi\\vetclinicapi\\repositories\\iprescriptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B58D50B-F634-407B-BF72-4DA6D1E42EB3}|VetClinicAPI\\VetClinicAPI.csproj|solutionrelative:vetclinicapi\\repositories\\iprescriptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B58D50B-F634-407B-BF72-4DA6D1E42EB3}|VetClinicAPI\\VetClinicAPI.csproj|d:\\vstutorials - praksa\\vetclinicapi\\vetclinicapi\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B58D50B-F634-407B-BF72-4DA6D1E42EB3}|VetClinicAPI\\VetClinicAPI.csproj|solutionrelative:vetclinicapi\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B58D50B-F634-407B-BF72-4DA6D1E42EB3}|VetClinicAPI\\VetClinicAPI.csproj|d:\\vstutorials - praksa\\vetclinicapi\\vetclinicapi\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B58D50B-F634-407B-BF72-4DA6D1E42EB3}|VetClinicAPI\\VetClinicAPI.csproj|solutionrelative:vetclinicapi\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B58D50B-F634-407B-BF72-4DA6D1E42EB3}|VetClinicAPI\\VetClinicAPI.csproj|d:\\vstutorials - praksa\\vetclinicapi\\vetclinicapi\\models\\medicalrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B58D50B-F634-407B-BF72-4DA6D1E42EB3}|VetClinicAPI\\VetClinicAPI.csproj|solutionrelative:vetclinicapi\\models\\medicalrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B58D50B-F634-407B-BF72-4DA6D1E42EB3}|VetClinicAPI\\VetClinicAPI.csproj|d:\\vstutorials - praksa\\vetclinicapi\\vetclinicapi\\models\\prescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B58D50B-F634-407B-BF72-4DA6D1E42EB3}|VetClinicAPI\\VetClinicAPI.csproj|solutionrelative:vetclinicapi\\models\\prescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B58D50B-F634-407B-BF72-4DA6D1E42EB3}|VetClinicAPI\\VetClinicAPI.csproj|d:\\vstutorials - praksa\\vetclinicapi\\vetclinicapi\\enums\\statusenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B58D50B-F634-407B-BF72-4DA6D1E42EB3}|VetClinicAPI\\VetClinicAPI.csproj|solutionrelative:vetclinicapi\\enums\\statusenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B58D50B-F634-407B-BF72-4DA6D1E42EB3}|VetClinicAPI\\VetClinicAPI.csproj|d:\\vstutorials - praksa\\vetclinicapi\\vetclinicapi\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B58D50B-F634-407B-BF72-4DA6D1E42EB3}|VetClinicAPI\\VetClinicAPI.csproj|solutionrelative:vetclinicapi\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B58D50B-F634-407B-BF72-4DA6D1E42EB3}|VetClinicAPI\\VetClinicAPI.csproj|d:\\vstutorials - praksa\\vetclinicapi\\vetclinicapi\\enums\\mednameenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B58D50B-F634-407B-BF72-4DA6D1E42EB3}|VetClinicAPI\\VetClinicAPI.csproj|solutionrelative:vetclinicapi\\enums\\mednameenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B58D50B-F634-407B-BF72-4DA6D1E42EB3}|VetClinicAPI\\VetClinicAPI.csproj|d:\\vstutorials - praksa\\vetclinicapi\\vetclinicapi\\enums\\procedureenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B58D50B-F634-407B-BF72-4DA6D1E42EB3}|VetClinicAPI\\VetClinicAPI.csproj|solutionrelative:vetclinicapi\\enums\\procedureenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B58D50B-F634-407B-BF72-4DA6D1E42EB3}|VetClinicAPI\\VetClinicAPI.csproj|d:\\vstutorials - praksa\\vetclinicapi\\vetclinicapi\\models\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B58D50B-F634-407B-BF72-4DA6D1E42EB3}|VetClinicAPI\\VetClinicAPI.csproj|solutionrelative:vetclinicapi\\models\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B58D50B-F634-407B-BF72-4DA6D1E42EB3}|VetClinicAPI\\VetClinicAPI.csproj|d:\\vstutorials - praksa\\vetclinicapi\\vetclinicapi\\controllers\\medicalrecordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B58D50B-F634-407B-BF72-4DA6D1E42EB3}|VetClinicAPI\\VetClinicAPI.csproj|solutionrelative:vetclinicapi\\controllers\\medicalrecordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6B58D50B-F634-407B-BF72-4DA6D1E42EB3}|VetClinicAPI\\VetClinicAPI.csproj|d:\\vstutorials - praksa\\vetclinicapi\\vetclinicapi\\controllers\\prescriptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B58D50B-F634-407B-BF72-4DA6D1E42EB3}|VetClinicAPI\\VetClinicAPI.csproj|solutionrelative:vetclinicapi\\controllers\\prescriptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -83,75 +31,28 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "VetService.cs",
-              "DocumentMoniker": "D:\\VSTutorials - Praksa\\VetClinicAPI\\VetClinicAPI\\Services\\VetService.cs",
-              "RelativeDocumentMoniker": "VetClinicAPI\\Services\\VetService.cs",
-              "ToolTip": "D:\\VSTutorials - Praksa\\VetClinicAPI\\VetClinicAPI\\Services\\VetService.cs",
-              "RelativeToolTip": "VetClinicAPI\\Services\\VetService.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\VSTutorials - Praksa\\VetClinicAPI\\VetClinicAPI\\Program.cs",
+              "RelativeDocumentMoniker": "VetClinicAPI\\Program.cs",
+              "ToolTip": "D:\\VSTutorials - Praksa\\VetClinicAPI\\VetClinicAPI\\Program.cs",
+              "RelativeToolTip": "VetClinicAPI\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABsAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T06:11:42.159Z",
+              "WhenOpened": "2026-06-01T10:02:17.87Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IPrescriptionRepository.cs",
-              "DocumentMoniker": "D:\\VSTutorials - Praksa\\VetClinicAPI\\VetClinicAPI\\Repositories\\IPrescriptionRepository.cs",
-              "RelativeDocumentMoniker": "VetClinicAPI\\Repositories\\IPrescriptionRepository.cs",
-              "ToolTip": "D:\\VSTutorials - Praksa\\VetClinicAPI\\VetClinicAPI\\Repositories\\IPrescriptionRepository.cs",
-              "RelativeToolTip": "VetClinicAPI\\Repositories\\IPrescriptionRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABXAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ProcedureController.cs",
+              "DocumentMoniker": "D:\\VSTutorials - Praksa\\VetClinicAPI\\VetClinicAPI\\Controllers\\ProcedureController.cs",
+              "RelativeDocumentMoniker": "VetClinicAPI\\Controllers\\ProcedureController.cs",
+              "ToolTip": "D:\\VSTutorials - Praksa\\VetClinicAPI\\VetClinicAPI\\Controllers\\ProcedureController.cs",
+              "RelativeToolTip": "VetClinicAPI\\Controllers\\ProcedureController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAUwCsAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T05:53:48.086Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "D:\\VSTutorials - Praksa\\VetClinicAPI\\VetClinicAPI\\Repositories\\IRepository.cs",
-              "RelativeDocumentMoniker": "VetClinicAPI\\Repositories\\IRepository.cs",
-              "ToolTip": "D:\\VSTutorials - Praksa\\VetClinicAPI\\VetClinicAPI\\Repositories\\IRepository.cs",
-              "RelativeToolTip": "VetClinicAPI\\Repositories\\IRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T05:41:30.488Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "D:\\VSTutorials - Praksa\\VetClinicAPI\\VetClinicAPI\\Repositories\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "VetClinicAPI\\Repositories\\GenericRepository.cs",
-              "ToolTip": "D:\\VSTutorials - Praksa\\VetClinicAPI\\VetClinicAPI\\Repositories\\GenericRepository.cs",
-              "RelativeToolTip": "VetClinicAPI\\Repositories\\GenericRepository.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAcwDgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T04:57:32.993Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "StatusEnum.cs",
-              "DocumentMoniker": "D:\\VSTutorials - Praksa\\VetClinicAPI\\VetClinicAPI\\Enums\\StatusEnum.cs",
-              "RelativeDocumentMoniker": "VetClinicAPI\\Enums\\StatusEnum.cs",
-              "ToolTip": "D:\\VSTutorials - Praksa\\VetClinicAPI\\VetClinicAPI\\Enums\\StatusEnum.cs",
-              "RelativeToolTip": "VetClinicAPI\\Enums\\StatusEnum.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-31T18:41:31.585Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Animal.cs",
-              "DocumentMoniker": "D:\\VSTutorials - Praksa\\VetClinicAPI\\VetClinicAPI\\Models\\Animal.cs",
-              "RelativeDocumentMoniker": "VetClinicAPI\\Models\\Animal.cs",
-              "ToolTip": "D:\\VSTutorials - Praksa\\VetClinicAPI\\VetClinicAPI\\Models\\Animal.cs",
-              "RelativeToolTip": "VetClinicAPI\\Models\\Animal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-30T18:05:57.937Z"
+              "WhenOpened": "2026-06-01T09:55:53.471Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -161,117 +62,10 @@
               "RelativeDocumentMoniker": "VetClinicAPI\\Controllers\\PrescriptionController.cs",
               "ToolTip": "D:\\VSTutorials - Praksa\\VetClinicAPI\\VetClinicAPI\\Controllers\\PrescriptionController.cs",
               "RelativeToolTip": "VetClinicAPI\\Controllers\\PrescriptionController.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAcwCgAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAC0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-30T17:11:22.298Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PrescriptionDTO.cs",
-              "DocumentMoniker": "D:\\VSTutorials - Praksa\\VetClinicAPI\\VetClinicAPI\\DTO\\PrescriptionDTO.cs",
-              "RelativeDocumentMoniker": "VetClinicAPI\\DTO\\PrescriptionDTO.cs",
-              "ToolTip": "D:\\VSTutorials - Praksa\\VetClinicAPI\\VetClinicAPI\\DTO\\PrescriptionDTO.cs",
-              "RelativeToolTip": "VetClinicAPI\\DTO\\PrescriptionDTO.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-30T17:27:41.888Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PrescriptionRepository.cs",
-              "DocumentMoniker": "D:\\VSTutorials - Praksa\\VetClinicAPI\\VetClinicAPI\\Repositories\\PrescriptionRepository.cs",
-              "RelativeDocumentMoniker": "VetClinicAPI\\Repositories\\PrescriptionRepository.cs",
-              "ToolTip": "D:\\VSTutorials - Praksa\\VetClinicAPI\\VetClinicAPI\\Repositories\\PrescriptionRepository.cs",
-              "RelativeToolTip": "VetClinicAPI\\Repositories\\PrescriptionRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAEAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T05:55:43.882Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\VSTutorials - Praksa\\VetClinicAPI\\VetClinicAPI\\Program.cs",
-              "RelativeDocumentMoniker": "VetClinicAPI\\Program.cs",
-              "ToolTip": "D:\\VSTutorials - Praksa\\VetClinicAPI\\VetClinicAPI\\Program.cs",
-              "RelativeToolTip": "VetClinicAPI\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAABaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T06:04:20.378Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ProcedureEnum.cs",
-              "DocumentMoniker": "D:\\VSTutorials - Praksa\\VetClinicAPI\\VetClinicAPI\\Enums\\ProcedureEnum.cs",
-              "RelativeDocumentMoniker": "VetClinicAPI\\Enums\\ProcedureEnum.cs",
-              "ToolTip": "D:\\VSTutorials - Praksa\\VetClinicAPI\\VetClinicAPI\\Enums\\ProcedureEnum.cs",
-              "RelativeToolTip": "VetClinicAPI\\Enums\\ProcedureEnum.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-31T05:02:42.666Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Prescription.cs",
-              "DocumentMoniker": "D:\\VSTutorials - Praksa\\VetClinicAPI\\VetClinicAPI\\Models\\Prescription.cs",
-              "RelativeDocumentMoniker": "VetClinicAPI\\Models\\Prescription.cs",
-              "ToolTip": "D:\\VSTutorials - Praksa\\VetClinicAPI\\VetClinicAPI\\Models\\Prescription.cs",
-              "RelativeToolTip": "VetClinicAPI\\Models\\Prescription.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAcwCMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-30T17:27:29.177Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MedicalRecord.cs",
-              "DocumentMoniker": "D:\\VSTutorials - Praksa\\VetClinicAPI\\VetClinicAPI\\Models\\MedicalRecord.cs",
-              "RelativeDocumentMoniker": "VetClinicAPI\\Models\\MedicalRecord.cs",
-              "ToolTip": "D:\\VSTutorials - Praksa\\VetClinicAPI\\VetClinicAPI\\Models\\MedicalRecord.cs",
-              "RelativeToolTip": "VetClinicAPI\\Models\\MedicalRecord.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAcwCoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-29T22:34:03.397Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Appointment.cs",
-              "DocumentMoniker": "D:\\VSTutorials - Praksa\\VetClinicAPI\\VetClinicAPI\\Models\\Appointment.cs",
-              "RelativeDocumentMoniker": "VetClinicAPI\\Models\\Appointment.cs",
-              "ToolTip": "D:\\VSTutorials - Praksa\\VetClinicAPI\\VetClinicAPI\\Models\\Appointment.cs",
-              "RelativeToolTip": "VetClinicAPI\\Models\\Appointment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-31T18:38:19.353Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MedNameEnum.cs",
-              "DocumentMoniker": "D:\\VSTutorials - Praksa\\VetClinicAPI\\VetClinicAPI\\Enums\\MedNameEnum.cs",
-              "RelativeDocumentMoniker": "VetClinicAPI\\Enums\\MedNameEnum.cs",
-              "ToolTip": "D:\\VSTutorials - Praksa\\VetClinicAPI\\VetClinicAPI\\Enums\\MedNameEnum.cs",
-              "RelativeToolTip": "VetClinicAPI\\Enums\\MedNameEnum.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-30T15:42:50.842Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "MedicalRecordController.cs",
-              "DocumentMoniker": "D:\\VSTutorials - Praksa\\VetClinicAPI\\VetClinicAPI\\Controllers\\MedicalRecordController.cs",
-              "RelativeDocumentMoniker": "VetClinicAPI\\Controllers\\MedicalRecordController.cs",
-              "ToolTip": "D:\\VSTutorials - Praksa\\VetClinicAPI\\VetClinicAPI\\Controllers\\MedicalRecordController.cs",
-              "RelativeToolTip": "VetClinicAPI\\Controllers\\MedicalRecordController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACYAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-29T23:13:59.757Z"
+              "WhenOpened": "2026-06-01T09:55:52.423Z",
+              "EditorCaption": ""
             }
           ]
         }
