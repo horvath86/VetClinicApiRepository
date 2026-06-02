@@ -238,6 +238,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "VetClinicAPI.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDTO",
+        "Type": "VetClinicAPI.DTO.LoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "VetClinicAPI.Controllers.MedicalRecordController",
     "Method": "GetAllMedicalRecords",
     "RelativePath": "api/MedicalRecord",
