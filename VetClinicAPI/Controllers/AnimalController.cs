@@ -39,8 +39,13 @@ namespace VetClinicAPI.Controllers
         [HttpPost]
         public async Task<ActionResult<Animal>> CreateAnimal(AnimalDTO animalDTO)
         {
-            try
+            return await ExecuteSafelyAsync(async () =>
             {
+                if (ModelState.IsValid == false)
+                {
+                    return BadRequest();
+                }
+
                 var animal = new Animal
                 {
                     Name = animalDTO.Name,
@@ -53,18 +58,19 @@ namespace VetClinicAPI.Controllers
 
                 await _animalRepository.AddAsync(animal);
                 return CreatedAtAction(nameof(GetAnimalById), new { id = animal.Id }, animal);
-            }
-            catch (Exception)
-            {
-
-                return BadRequest("Could not create animal");
-            }
+            });
+            
         }
 
         [HttpPut("{id}")]
         public async Task<ActionResult<Animal>> UpdateAnimal(int id, AnimalDTO animalDTO)
         {
             var animal = await _animalRepository.GetByIdAsync(id);
+
+            if (ModelState.IsValid == false)
+            {
+                return BadRequest();
+            }
 
             if (animal == null)
             {

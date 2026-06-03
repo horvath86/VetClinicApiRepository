@@ -50,6 +50,11 @@ namespace VetClinicAPI.Controllers
         {
             return await ExecuteSafelyAsync(async () =>
             {
+                if (ModelState.IsValid == false)
+                {
+                    return BadRequest();
+                }
+
                 var prescription = new Prescription {
                     MedicalRecordId = prescriptionDTO.MedicalRecordId,
                     MedName = prescriptionDTO.MedName,
@@ -67,6 +72,11 @@ namespace VetClinicAPI.Controllers
         public async Task<ActionResult<Prescription>> UpdatePrescription(int id, PrescriptionDTO prescriptionDTO)
         {
             var prescription = await _prescription.GetByIdAsync(id);
+
+            if (ModelState.IsValid == false)
+            {
+                return BadRequest();
+            }
 
             if (prescription == null) 
             {

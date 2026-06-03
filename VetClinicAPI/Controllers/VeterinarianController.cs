@@ -45,6 +45,11 @@ namespace VetClinicAPI.Controllers
         public async Task<ActionResult<Veterinarian>> CreateVeterinariian(RegVeterinarian regVeterinarian)
         {
 
+            if (ModelState.IsValid == false)
+            {
+                return BadRequest();
+            }
+
             if (regVeterinarian.Password != regVeterinarian.PassConfirm)
             {
                 return BadRequest("Paswords do not match");
@@ -60,6 +65,12 @@ namespace VetClinicAPI.Controllers
         [HttpPut("{id}")]
         public async Task<ActionResult<Veterinarian>> UpdateVeterinarian(int id, RegVeterinarian regVeterinarian)
         {
+
+            if (ModelState.IsValid == false)
+            {
+                return BadRequest();
+            }
+
             if (regVeterinarian.Password != regVeterinarian.PassConfirm)
             {
                 return BadRequest("Paswords do not match");

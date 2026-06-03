@@ -35,6 +35,11 @@ namespace VetClinicAPI.Controllers
         {
             return await ExecuteSafelyAsync(async () => 
             {
+                if (ModelState.IsValid == false)
+                {
+                    return BadRequest();
+                }
+
                 Appointment appointment = new Appointment 
                 {
                     VetId = appointmentDTO.VetId,
@@ -51,7 +56,13 @@ namespace VetClinicAPI.Controllers
         [HttpPut("{id}")]
         public async Task<ActionResult<Appointment>> UpdateAppointment(int id, AppointmentDTO appointmentDTO)
         {
+
             var appointment = await _appoinment.GetByIdAsync(id);
+
+            if (ModelState.IsValid == false)
+            {
+                return BadRequest();
+            }
 
             if (appointment == null)
             {

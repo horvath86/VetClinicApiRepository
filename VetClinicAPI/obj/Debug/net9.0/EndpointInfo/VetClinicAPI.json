@@ -1705,7 +1705,8 @@
           },
           "email": {
             "minLength": 1,
-            "type": "string"
+            "type": "string",
+            "format": "email"
           },
           "password": {
             "maxLength": 100,
@@ -1783,7 +1784,8 @@
           "email": {
             "maxLength": 50,
             "minLength": 0,
-            "type": "string"
+            "type": "string",
+            "format": "email"
           },
           "passHash": {
             "maxLength": 256,

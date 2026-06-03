@@ -5,11 +5,12 @@ namespace VetClinicAPI.DTO
 {
     public class VeterinarianDTO
     {
-        [Required]
+        [Required(ErrorMessage = "Name is required")]
         [StringLength(100)]
         public String Name { get; set; } = string.Empty;
 
-        [Required]
+        [Required(ErrorMessage = "Email address is required")]
+        [EmailAddress(ErrorMessage = "Invalid email address")]
         [StringLength(50)]
         public string Email { get; set; } = string.Empty;
 
