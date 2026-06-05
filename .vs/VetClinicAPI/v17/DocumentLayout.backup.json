@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\VSTutorials - Praksa\\VetClinicAPI\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6B58D50B-F634-407B-BF72-4DA6D1E42EB3}|VetClinicAPI\\VetClinicAPI.csproj|d:\\vstutorials - praksa\\vetclinicapi\\vetclinicapi\\controllers\\medicalrecordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B58D50B-F634-407B-BF72-4DA6D1E42EB3}|VetClinicAPI\\VetClinicAPI.csproj|solutionrelative:vetclinicapi\\controllers\\medicalrecordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MedicalRecordController.cs",
+              "DocumentMoniker": "D:\\VSTutorials - Praksa\\VetClinicAPI\\VetClinicAPI\\Controllers\\MedicalRecordController.cs",
+              "RelativeDocumentMoniker": "VetClinicAPI\\Controllers\\MedicalRecordController.cs",
+              "ToolTip": "D:\\VSTutorials - Praksa\\VetClinicAPI\\VetClinicAPI\\Controllers\\MedicalRecordController.cs",
+              "RelativeToolTip": "VetClinicAPI\\Controllers\\MedicalRecordController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T19:00:58.754Z",
+              "EditorCaption": ""
             }
           ]
         }

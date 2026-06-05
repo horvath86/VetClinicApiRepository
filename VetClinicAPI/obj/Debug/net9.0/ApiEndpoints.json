@@ -301,22 +301,6 @@
   },
   {
     "ContainingType": "VetClinicAPI.Controllers.MedicalRecordController",
-    "Method": "DeleteMedicalRecord",
-    "RelativePath": "api/MedicalRecord",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "VetClinicAPI.Controllers.MedicalRecordController",
     "Method": "GetMedicalRecordById",
     "RelativePath": "api/MedicalRecord/{id}",
     "HttpMethod": "GET",
@@ -371,6 +355,22 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "VetClinicAPI.Controllers.MedicalRecordController",
+    "Method": "DeleteMedicalRecord",
+    "RelativePath": "api/MedicalRecord/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "VetClinicAPI.Controllers.PrescriptionController",

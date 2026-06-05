@@ -88,7 +88,7 @@ namespace VetClinicAPI.Controllers
             return CreatedAtAction(nameof(GetMedicalRecordById), new {id = medicalRecord.Id }, medicalRecordDTO);
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<ActionResult> DeleteMedicalRecord(int id)
         {
 
